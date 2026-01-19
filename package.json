@@ -1,0 +1,27 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "a tut for the intro to backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulPandya-280507/intro-to-backend.git"
+  },
+  "author": "Rahul Pandya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulPandya-280507/intro-to-backend/issues"
+  },
+  "homepage": "https://github.com/rahulPandya-280507/intro-to-backend#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.4",
+    "nodemon": "^3.1.11"
+  }
+}
